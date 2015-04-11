@@ -1,0 +1,20 @@
+#! /bin/bash -f
+#PBS -l nodes=4
+#PBS -l walltime=24:00:00 
+#PBS -N primitive
+#PBS -o ./exp/pbs.$PBS_JOBID.out
+#PBS -e ./exp/pbs.$PBS_JOBID.err
+#PBS -S /bin/bash
+#PBS -V 
+#PBS -q default
+
+# change the working directory (default is the current directory)
+cd $PBS_O_WORKDIR
+echo Working directory is $PBS_O_WORKDIR
+
+# write PBS information
+echo This job runs on the following processors:
+echo `cat $PBS_NODEFILE`
+echo Time submitted: `date`
+
+./run -i dy256.s2.0.x1.1.nc > ./exp/log256.s2.0.x1.1

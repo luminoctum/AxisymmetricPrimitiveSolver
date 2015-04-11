@@ -1,0 +1,4 @@
+source ~/.bash_profile; cd /home/cli/Primitive; ./run -i dy.s1.0.x1.2.nc > ./exp/log.s1.0.x1.2
+source ~/.bash_profile; cd /home/cli/Primitive; ./run -i dy.s2.0.x1.0.nc > ./exp/log.s2.0.x1.0
+source ~/.bash_profile; cd /home/cli/Primitive; ./run -i dy.s3.0.x1.2.nc > ./exp/log.s3.0.x1.2
+source ~/.bash_profile; cd /home/cli/Primitive; ./run -i dy.s2.0.x1.3.nc > ./exp/log.s2.0.x1.3

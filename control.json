@@ -1,0 +1,13 @@
+[{
+    "num_grids_in_x" : 256, 
+    "num_grids_in_y" : 128, 
+    "length_x" : 1.000E+07, 
+    "length_y" : 3.939E+05, 
+    "grid_size_x" : 3.906E+04, 
+    "grid_size_y" : 3.077E+03, 
+    "time_start" : 0.000E+00, 
+    "time_step" : 0.500E+01, 
+    "time_end" : 1.800E+05, 
+    "steps_per_frame" : 40, 
+    "restart" : 0
+}]
