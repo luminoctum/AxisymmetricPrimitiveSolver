@@ -1,0 +1,11 @@
+Working directory is /home/cli/Primitive
+This job runs on the following processors:
+compute-7-182 compute-7-182 compute-7-182 compute-7-182
+Time submitted: Wed Jun 11 23:48:31 PDT 2014
+Job Information:
+Job ID: 422251.fram-master.gps.caltech.edu
+User ID: cli
+Group ID: api
+Resource List: neednodes=4,nodes=4,walltime=24:00:00
+Resource Used: cput=01:49:04,mem=64276kb,vmem=279764kb,walltime=01:35:44
+Queue Name: default
